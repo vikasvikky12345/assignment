@@ -7,7 +7,6 @@ const Home = () => {
 
   return (
     <div className="relative w-full h-screen flex">
-      {/* Toggle Button */}
       <div className={`absolute top-16 z-10 transition-all duration-300 ${toggle ? 'left-80' : 'left-4'}`}>
         {!toggle ? (
           <FaAngleDoubleRight
@@ -77,5 +76,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
